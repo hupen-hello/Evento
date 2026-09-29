@@ -1,0 +1,95 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+import { Play } from "lucide-react";
+import { motion } from "framer-motion";
+
+interface HeroData {
+  superTitle: string;
+  title: string;
+  description: string;
+  primaryCta: string;
+  primaryCtaLink: string;
+  videoCta: string;
+  videoLink: string;
+  bgImage: string;
+}
+
+export default function HeroEvent1({ data }: { data: HeroData }) {
+  return (
+    <section className="relative w-full min-h-[500px] lg:min-h-[75vh] flex items-center bg-zinc-950 overflow-hidden pt-24 pb-16 lg:pt-32 lg:pb-20">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${data.bgImage})` }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1a052b]/95 via-[#2c0e44]/80 to-transparent" />
+      </div>
+
+      <div className="container mx-auto px-6 lg:px-20 relative z-10 w-full">
+        <div className="max-w-3xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex items-center gap-4 mb-6"
+          >
+            <div className="h-px w-16 bg-white/50" />
+            <span className="text-white tracking-[0.25em] text-xs font-medium uppercase">
+              {data.superTitle}
+            </span>
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-4xl md:text-5xl lg:text-6xl font-serif text-white leading-[1.15] mb-6"
+          >
+            {data.title.split('Into').map((part, i) => (
+              <React.Fragment key={i}>
+                {i > 0 && <span className="block italic font-light text-purple-200 mt-1">Into {part}</span>}
+                {i === 0 && <span className="block font-medium">{part}</span>}
+              </React.Fragment>
+            ))}
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="text-white/80 text-base md:text-lg max-w-xl mb-10 leading-relaxed font-light"
+          >
+            {data.description}
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            className="flex flex-wrap items-center gap-8"
+          >
+            <Link
+              href={data.primaryCtaLink}
+              className="bg-[#421d6e] hover:bg-[#5b2a96] text-white font-medium px-8 py-3.5 rounded-md uppercase tracking-wider text-sm transition-colors border border-purple-400/50 flex items-center gap-2 group shadow-[0_0_15px_rgba(66,29,110,0.5)]"
+            >
+              {data.primaryCta}
+              <span className="group-hover:translate-x-1 transition-transform">→</span>
+            </Link>
+
+            <Link
+              href={data.videoLink}
+              className="flex items-center gap-4 text-white hover:text-purple-200 transition-colors group"
+            >
+              <div className="w-12 h-12 rounded-full border border-white/40 flex items-center justify-center group-hover:border-white transition-colors">
+                <Play fill="none" strokeWidth={1.5} size={18} className="ml-0.5" />
+              </div>
+              <span className="font-normal text-base">{data.videoCta}</span>
+            </Link>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}

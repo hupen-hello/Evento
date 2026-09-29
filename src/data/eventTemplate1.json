@@ -1,0 +1,586 @@
+{
+  "common": {
+    "header": {
+      "logo": {
+        "initials": "EH",
+        "main": "EVENHA",
+        "sub": "EVENTS",
+        "tagline": "PLAN • DESIGN • CELEBRATE"
+      },
+      "topbar": {
+        "address": "B-120, Sector 63, Noida, Uttar Pradesh 201301",
+        "phone": "+91 98765 43210",
+        "email": "hello@evenhaevents.com",
+        "social": {
+          "facebook": "#",
+          "instagram": "#",
+          "pinterest": "#",
+          "linkedin": "#"
+        }
+      },
+      "navLinks": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "ABOUT US",
+          "href": "/about-us",
+          "subLinks": [
+            {
+              "label": "About Us",
+              "href": "/about-us"
+            },
+            {
+              "label": "Mission",
+              "href": "/mission"
+            },
+            {
+              "label": "Vision",
+              "href": "/vision"
+            },
+            {
+              "label": "Our Story",
+              "href": "/our-story"
+            },
+            {
+              "label": "Awards & Achievements",
+              "href": "/awards-achievements"
+            },
+            {
+              "label": "Our Team",
+              "href": "/our-team"
+            },
+            {
+              "label": "Team Detail",
+              "href": "/team-detail"
+            },
+            {
+              "label": "Why Choose Us",
+              "href": "/why-choose-us"
+            }
+          ]
+        },
+        {
+          "label": "SERVICES",
+          "href": "/services",
+          "subLinks": [
+            {
+              "label": "Services",
+              "href": "/services"
+            },
+            {
+              "label": "Services Detail",
+              "href": "/services-detail"
+            }
+          ]
+        },
+        {
+          "label": "EVENTS",
+          "href": "/events",
+          "subLinks": [
+            {
+              "label": "Event",
+              "href": "/event"
+            },
+            {
+              "label": "Event Detail",
+              "href": "/event-detail"
+            }
+          ]
+        },
+        {
+          "label": "PAGES",
+          "href": "#",
+          "subLinks": [
+            {
+              "label": "Gallery",
+              "href": "/gallery"
+            },
+            {
+              "label": "Testimonials",
+              "href": "/testimonials"
+            },
+            {
+              "label": "Partners",
+              "href": "/partners"
+            },
+            {
+              "label": "FAQs",
+              "href": "/faqs"
+            },
+            {
+              "label": "Career",
+              "href": "/career"
+            },
+            {
+              "label": "Career Detail",
+              "href": "/career-detail"
+            },
+            {
+              "label": "Get a quotes",
+              "href": "/get-a-quotes"
+            },
+            {
+              "label": "Terms & Conditions",
+              "href": "/terms-conditions"
+            },
+            {
+              "label": "Privacy Policy",
+              "href": "/privacy-policy"
+            },
+            {
+              "label": "Disclaimer",
+              "href": "/disclaimer"
+            },
+            {
+              "label": "Refund / Cancellation",
+              "href": "/refund-cancellation"
+            },
+            {
+              "label": "Cookies Policy",
+              "href": "/cookies-policy"
+            },
+            {
+              "label": "404 Page",
+              "href": "/404"
+            },
+            {
+              "label": "Sitemap",
+              "href": "/sitemap"
+            }
+          ]
+        },
+        {
+          "label": "BLOG",
+          "href": "/blog",
+          "subLinks": [
+            {
+              "label": "Blog / News",
+              "href": "/blog"
+            },
+            {
+              "label": "Blog Detail",
+              "href": "/blog-detail"
+            }
+          ]
+        },
+        {
+          "label": "CONTACT",
+          "href": "/contact"
+        }
+      ],
+      "ctaText": "GET A QUOTE",
+      "ctaLink": "#contact"
+    },
+    "footer": {
+      "about": {
+        "description": "Crafting unforgettable experiences\nwith creativity, precision, and passion.\nFrom concept to celebration,\nwe bring your vision to life."
+      },
+      "contact": {
+        "address": "123 Celebration Avenue,\nEvent City, EC 50000",
+        "phone": "+92 300 1234567",
+        "email": "hello@evenhaevents.com",
+        "website": "www.evenhaevents.com"
+      },
+      "quickLinks": [
+        {
+          "label": "Home",
+          "href": "#"
+        },
+        {
+          "label": "About Us",
+          "href": "#"
+        },
+        {
+          "label": "Our Services",
+          "href": "#"
+        },
+        {
+          "label": "Gallery",
+          "href": "#"
+        },
+        {
+          "label": "Blog",
+          "href": "#"
+        },
+        {
+          "label": "FAQ's",
+          "href": "#"
+        },
+        {
+          "label": "Contact Us",
+          "href": "#"
+        }
+      ],
+      "servicesLinks": [
+        {
+          "label": "Event Planning & Management",
+          "href": "#"
+        },
+        {
+          "label": "Venue & Hospitality Solutions",
+          "href": "#"
+        },
+        {
+          "label": "On-Site Event Management",
+          "href": "#"
+        },
+        {
+          "label": "Corporate Events",
+          "href": "#"
+        },
+        {
+          "label": "Weddings & Celebrations",
+          "href": "#"
+        },
+        {
+          "label": "Exhibitions & Conferences",
+          "href": "#"
+        }
+      ],
+      "usefulLinks": [
+        {
+          "label": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "#"
+        },
+        {
+          "label": "Refund Policy",
+          "href": "#"
+        },
+        {
+          "label": "Careers",
+          "href": "#"
+        },
+        {
+          "label": "Sitemap",
+          "href": "#"
+        },
+        {
+          "label": "Cookie Policy",
+          "href": "#"
+        }
+      ],
+      "newsletter": {
+        "title": "STAY CONNECTED",
+        "description": "Subscribe to our newsletter for the latest updates, news, and exclusive event inspirations.",
+        "placeholder": "Enter your email"
+      },
+      "social": {
+        "facebook": "#",
+        "instagram": "#",
+        "linkedin": "#",
+        "youtube": "#"
+      },
+      "copyright": "© 2024 EVENHA EVENTS. All Rights Reserved.",
+      "bottomTagline": "We Plan. We Design. We Celebrate.",
+      "designer": "EVENHA EVENTS"
+    }
+  },
+  "template1": {
+    "home": {
+      "sections": {
+        "hero": {
+          "superTitle": "DREAM • PLAN • CELEBRATE",
+          "title": "Turning Your Moments Into Unforgettable Experiences",
+          "description": "From grand weddings to corporate gatherings — we design, plan and execute events that people remember forever.",
+          "primaryCta": "GET A QUOTE",
+          "primaryCtaLink": "#contact",
+          "videoCta": "Watch Our Story",
+          "videoLink": "#video",
+          "bgImage": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop"
+        },
+        "stats": [
+          {
+            "icon": "party",
+            "value": "500+",
+            "label": "Events Delivered"
+          },
+          {
+            "icon": "users",
+            "value": "50K+",
+            "label": "Happy Clients"
+          },
+          {
+            "icon": "calendar-star",
+            "value": "10+",
+            "label": "Years of Excellence"
+          },
+          {
+            "icon": "heart",
+            "value": "100%",
+            "label": "On-Time Execution"
+          }
+        ],
+        "about": {
+          "subtitle": "ABOUT US",
+          "title": "Crafting Moments. Creating Memories.",
+          "description1": "Evenha Events is a full-service event planning and design company dedicated to creating unforgettable experiences. From concept to celebration, we handle every detail with creativity, precision, and passion—so you can enjoy every moment.",
+          "description2": "Whether it's an intimate gathering or a grand celebration, we bring your vision to life with elegance and excellence.",
+          "cursiveText": "You Dream It. We Make It Happen.",
+          "images": [
+            "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522413452208-99613f8c0789?q=80&w=2070&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop"
+          ],
+          "experienceBadge": {
+            "value": "DETAILS MATTER.",
+            "text": "That's Our Promise."
+          }
+        },
+        "services": {
+          "subtitle": "OUR SERVICES",
+          "title": "Memorable Events. Beautifully Planned.",
+          "description": "From the delicate details to the grand design, we are dedicated to crafting a flawless event experience. We specialize in seamless coordination.",
+          "items": [
+            {
+              "title": "Corporate Events & Management",
+              "tags": [
+                "Planning",
+                "Coordination"
+              ],
+              "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+              "title": "Awards & Ceremony Solutions",
+              "tags": [
+                "Creative",
+                "Inspiring",
+                "Award Ceremonies"
+              ],
+              "image": "https://images.unsplash.com/photo-1561489422-45de3d015e3e?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+              "title": "On-Site Event Management",
+              "tags": [
+                "Seminar",
+                "Planning",
+                "Logistics"
+              ],
+              "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop"
+            },
+            {
+              "title": "Event Planning & Management",
+              "tags": [
+                "Planning",
+                "Coordination"
+              ],
+              "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop"
+            },
+            {
+              "title": "Event Decor & Styling Solutions",
+              "tags": [
+                "Creative",
+                "Inspiring",
+                "Decor Elements"
+              ],
+              "image": "https://images.unsplash.com/photo-1530103862676-de8892b12a15?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+              "title": "Private Events & Celebrations",
+              "tags": [
+                "Planning",
+                "Coordination"
+              ],
+              "image": "https://images.unsplash.com/photo-1478146896981-b80fe463b330?q=80&w=2070&auto=format&fit=crop"
+            }
+          ],
+          "ctaText": "EXPLORE ALL SERVICES"
+        },
+        "testimonials": {
+          "subtitle": "TESTIMONIALS",
+          "title": "What Our Clients Say About Us",
+          "description": "You will love your flawless, custom events executed effortlessly by the experts of our agency.",
+          "reviews": [
+            {
+              "text": "Working with several event planners and their places over the past years truly put out this in context in every level ever. I highly recommend out those all. They are awesome, and the reviews that I have already are all amazing. Not to say they are perfect. It is exact.",
+              "author": "Marie McElhiney",
+              "role": "Project Manager",
+              "rating": 5,
+              "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop"
+            },
+            {
+              "text": "The attention to detail was absolutely incredible. Our corporate gala went off without a hitch, and our guests are still raving about the beautiful decor and seamless organization. Truly a top-tier event management experience.",
+              "author": "James Harrington",
+              "role": "Corporate Director",
+              "rating": 5,
+              "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop"
+            },
+            {
+              "text": "I couldn't have asked for a better team to handle our wedding. From the flowers to the catering, everything was handled with such care and professionalism. They took all the stress away so we could just enjoy our special day.",
+              "author": "Sarah Jenkins",
+              "role": "Bride",
+              "rating": 4,
+              "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop"
+            }
+          ]
+        },
+        "blog": {
+          "subtitle": "OUR BLOG",
+          "title": "Recent Blog & Articles About Events & Venues",
+          "description": "From your original idea and concepts, we work with you as part of our team to bring those to visual creations.",
+          "articles": [
+            {
+              "date": "22 Nov 2024",
+              "category": "Hotel & Spa",
+              "author": "Alex Rossi",
+              "title": "Haven Classic by Modern Wedding Venues",
+              "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop",
+              "link": "#"
+            },
+            {
+              "date": "22 Nov 2024",
+              "category": "Hotel & Spa",
+              "author": "Alex Rossi",
+              "title": "Top 5 Decor Trends To 2024 Weddings",
+              "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop",
+              "link": "#"
+            },
+            {
+              "date": "22 Nov 2024",
+              "category": "Hotel & Spa",
+              "author": "Alex Rossi",
+              "title": "A Fairytale Celebration The Dream Venue",
+              "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2069&auto=format&fit=crop",
+              "link": "#"
+            },
+            {
+              "date": "22 Nov 2024",
+              "category": "Hotel & Spa",
+              "author": "Alex Rossi",
+              "title": "Checklist on All Before Booking Your Venue",
+              "image": "https://images.unsplash.com/photo-1527529482837-469480a4b66f?q=80&w=2070&auto=format&fit=crop",
+              "link": "#"
+            }
+          ],
+          "ctaText": "VIEW ALL ARTICLES"
+        }
+      }
+    },
+    "aboutUs": {
+      "sections": {
+        "pageBanner": {
+          "title": "About Us",
+          "bgImage": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+          "breadcrumbs": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "About Us"
+            }
+          ]
+        },
+        "about": {
+          "subtitle": "ABOUT US",
+          "title": "Crafting Moments. Creating Memories.",
+          "description1": "Evenha Events is a full-service event planning and design company dedicated to creating unforgettable experiences. From concept to celebration, we handle every detail with creativity, precision, and passion—so you can enjoy every moment.",
+          "description2": "Whether it's an intimate gathering or a grand celebration, we bring your vision to life with elegance and excellence.",
+          "cursiveText": "You Dream It. We Make It Happen.",
+          "images": [
+            "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1522413452208-99613f8c0789?q=80&w=2070&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop"
+          ],
+          "experienceBadge": {
+            "value": "DETAILS MATTER.",
+            "text": "That's Our Promise."
+          }
+        },
+        "missionVision": {
+          "tabs": [
+            {
+              "icon": "target",
+              "title": "Our Mission",
+              "description": "To transform ideas into unforgettable experiences by delivering flawless event planning, creative design, and seamless execution. We are committed to excellence, innovation, and bringing every client's vision to life with precision and passion."
+            },
+            {
+              "icon": "eye",
+              "title": "Our Vision",
+              "description": "To be the leading event management company known globally for setting new standards in creativity, elegance, and service. We envision a world where every celebration is a masterpiece, crafted with care and remembered forever."
+            },
+            {
+              "icon": "award",
+              "title": "Awards & Achievement",
+              "description": "Recognized for excellence in event planning and design, we have proudly received multiple industry awards, including 'Best Wedding Planner 2023' and 'Excellence in Corporate Events.' Our achievements reflect our unwavering dedication to perfection."
+            }
+          ],
+          "featured": {
+            "title": "Crafting the Perfect",
+            "subtitle": "Event Experience",
+            "description": "With years of expertise, we specialize in curating events that leave a lasting impression. From the initial concept to the final execution, our team ensures every detail is flawless, bringing your dreams to reality with elegance and style.",
+            "buttonText": "Discover More",
+            "buttonLink": "/about-us",
+            "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop"
+          }
+        },
+        "coreValues": {
+          "subtitle": "CORE VALUES",
+          "title": "The Principles That",
+          "highlight": "Drive Us",
+          "description": "Our core values are the foundation of everything we do. They guide our decisions, shape our culture, and ensure we consistently deliver exceptional experiences for our clients.",
+          "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop",
+          "values": [
+            {
+              "icon": "diamond",
+              "title": "Excellence",
+              "description": "We strive for perfection in every detail, ensuring every event we manage is flawless and exceeds our clients' expectations."
+            },
+            {
+              "icon": "award-badge",
+              "title": "Integrity",
+              "description": "Honesty and transparency are at the heart of our business. We build trust through open communication and ethical practices."
+            },
+            {
+              "icon": "handshake",
+              "title": "Collaboration",
+              "description": "We believe in the power of teamwork. By working closely with our clients and partners, we bring shared visions to life."
+            },
+            {
+              "icon": "users",
+              "title": "Client-Centric",
+              "description": "Our clients are our top priority. We listen, adapt, and go above and beyond to ensure their complete satisfaction."
+            },
+            {
+              "icon": "clock",
+              "title": "Reliability",
+              "description": "You can count on us. We deliver on our promises, meeting deadlines and managing every aspect of your event with precision."
+            },
+            {
+              "icon": "heart",
+              "title": "Passion",
+              "description": "We love what we do. Our passion for event planning shines through in our creativity, dedication, and the memorable experiences we create."
+            }
+          ]
+        },
+        "stats": [
+          {
+            "icon": "party",
+            "value": "500+",
+            "label": "Events Delivered"
+          },
+          {
+            "icon": "users",
+            "value": "50K+",
+            "label": "Happy Clients"
+          },
+          {
+            "icon": "calendar-star",
+            "value": "10+",
+            "label": "Years of Excellence"
+          },
+          {
+            "icon": "heart",
+            "value": "100%",
+            "label": "On-Time Execution"
+          }
+        ]
+      }
+    }
+  }
+}
