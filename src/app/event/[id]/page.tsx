@@ -39,7 +39,12 @@ export default function EventDetailPage({ params }: { params: { id: string } }) 
           return null;
         }
         
-        return <ResolvedComponent key={index} data={sectionData} eventId={params.id} />;
+        const props: any = { data: sectionData };
+        if (variant === "EventDetailEvent1") {
+          props.eventId = params.id;
+        }
+        
+        return <ResolvedComponent key={index} {...props} />;
       })}
 
       {/* Footer */}

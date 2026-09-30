@@ -85,7 +85,7 @@
             },
             {
               "label": "Event Detail",
-              "href": "/event-detail"
+              "href": "/event/1"
             }
           ]
         },
