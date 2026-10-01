@@ -50,9 +50,10 @@ export default function HeaderEvent1({ data }: { data: HeaderData }) {
     >
       {" "}
       {/* Top Bar */}{" "}
-      <div className="bg-[#2b1049] text-white/90 text-xs py-2.5 flex flex-col md:flex-row justify-between items-center border-b border-white/10 hidden lg:flex container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]">
-        {" "}
-        <div className="flex items-center gap-6 divide-x divide-white/20">
+      <div className="bg-[#2b1049] border-b border-white/10 hidden lg:block w-full">
+        <div className="text-white/90 text-xs py-2.5 flex flex-col md:flex-row justify-between items-center container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]">
+          {" "}
+          <div className="flex items-center gap-6 divide-x divide-white/20">
           {" "}
           <div className="flex items-center gap-2 pr-6 hover:text-white transition-colors cursor-pointer">
             {" "}
@@ -159,6 +160,7 @@ export default function HeaderEvent1({ data }: { data: HeaderData }) {
               </svg>{" "}
             </Link>{" "}
           </div>{" "}
+        </div>{" "}
         </div>{" "}
       </div>{" "}
       {/* Main Navbar */}{" "}

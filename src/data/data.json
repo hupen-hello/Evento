@@ -186,57 +186,57 @@
       "quickLinks": [
         {
           "label": "Home",
-          "href": "#"
+          "href": "/"
         },
         {
           "label": "About Us",
-          "href": "#"
+          "href": "/about-us"
         },
         {
           "label": "Our Services",
-          "href": "#"
+          "href": "/services"
         },
         {
           "label": "Gallery",
-          "href": "#"
+          "href": "/gallery"
         },
         {
           "label": "Blog",
-          "href": "#"
+          "href": "/blog"
         },
         {
           "label": "FAQ's",
-          "href": "#"
+          "href": "/faqs"
         },
         {
           "label": "Contact Us",
-          "href": "#"
+          "href": "/contact"
         }
       ],
       "servicesLinks": [
         {
-          "label": "Event Planning & Management",
-          "href": "#"
+          "label": "Corporate Events & Management",
+          "href": "/services-detail"
         },
         {
-          "label": "Venue & Hospitality Solutions",
-          "href": "#"
+          "label": "Awards & Ceremony Solutions",
+          "href": "/services-detail"
         },
         {
           "label": "On-Site Event Management",
-          "href": "#"
+          "href": "/services-detail"
         },
         {
-          "label": "Corporate Events",
-          "href": "#"
+          "label": "Event Planning & Management",
+          "href": "/services-detail"
         },
         {
-          "label": "Weddings & Celebrations",
-          "href": "#"
+          "label": "Event Decor & Styling Solutions",
+          "href": "/services-detail"
         },
         {
-          "label": "Exhibitions & Conferences",
-          "href": "#"
+          "label": "Private Events & Celebrations",
+          "href": "/services-detail"
         }
       ],
       "usefulLinks": [
@@ -259,6 +259,10 @@
         {
           "label": "Cookies Policy",
           "href": "/cookies-policy"
+        },
+        {
+          "label": "Sitemap",
+          "href": "/sitemap"
         }
       ],
       "newsletter": {
@@ -272,9 +276,9 @@
         "linkedin": "#",
         "youtube": "#"
       },
-      "copyright": "© 2024 EVENHA EVENTS. All Rights Reserved.",
+      "copyright": "© 2026 EVENHA EVENTS. All Rights Reserved.",
       "bottomTagline": "We Plan. We Design. We Celebrate.",
-      "designer": "EVENHA EVENTS"
+      "designer": "Lestow"
     }
   },
   "categories": {
@@ -400,7 +404,7 @@
               ]
             },
             "ServiceDetailPageBanner": {
-              "title": "Services",
+              "title": "Service Detail",
               "bgImage": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
               "breadcrumbs": [
                 {
@@ -408,7 +412,7 @@
                   "href": "/"
                 },
                 {
-                  "label": "Services"
+                  "label": "Service Detail"
                 }
               ]
             },
@@ -631,6 +635,19 @@
                 },
                 {
                   "label": "Contact Us"
+                }
+              ]
+            },
+            "SitemapPageBanner": {
+              "title": "Sitemap",
+              "bgImage": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+              "breadcrumbs": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "Sitemap"
                 }
               ]
             }
@@ -2727,6 +2744,212 @@
                 "href": "/"
               },
               "errorNumber": "404"
+            }
+          }
+        },
+        "Sitemap": {
+          "variants": {
+            "SitemapEvent1": {
+              "groups": [
+                {
+                  "id": "01",
+                  "title": "HOME",
+                  "links": [
+                    {
+                      "label": "Home",
+                      "href": "/"
+                    }
+                  ]
+                },
+                {
+                  "id": "02",
+                  "title": "SERVICES",
+                  "links": [
+                    {
+                      "label": "Services",
+                      "href": "/services"
+                    },
+                    {
+                      "label": "Services Detail",
+                      "href": "/services-detail"
+                    }
+                  ]
+                },
+                {
+                  "id": "03",
+                  "title": "EVENT",
+                  "links": [
+                    {
+                      "label": "Event",
+                      "href": "/event"
+                    },
+                    {
+                      "label": "Event Detail",
+                      "href": "/event/1"
+                    }
+                  ]
+                },
+                {
+                  "id": "04",
+                  "title": "CONTACT US",
+                  "links": [
+                    {
+                      "label": "Contact Us",
+                      "href": "/contact"
+                    }
+                  ]
+                },
+                {
+                  "id": "05",
+                  "title": "GALLERY",
+                  "links": [
+                    {
+                      "label": "Gallery",
+                      "href": "/gallery"
+                    },
+                    {
+                      "label": "Testimonials",
+                      "href": "/testimonials"
+                    }
+                  ]
+                },
+                {
+                  "id": "06",
+                  "title": "PARTNERS",
+                  "links": [
+                    {
+                      "label": "Partners",
+                      "href": "/partners"
+                    }
+                  ]
+                },
+                {
+                  "id": "07",
+                  "title": "FAQS",
+                  "links": [
+                    {
+                      "label": "FAQs",
+                      "href": "/faqs"
+                    }
+                  ]
+                },
+                {
+                  "id": "08",
+                  "title": "BLOG / NEWS",
+                  "links": [
+                    {
+                      "label": "Blog / News",
+                      "href": "/blog"
+                    },
+                    {
+                      "label": "Blog Detail",
+                      "href": "/blog/1"
+                    }
+                  ]
+                },
+                {
+                  "id": "09",
+                  "title": "CAREER",
+                  "links": [
+                    {
+                      "label": "Career",
+                      "href": "/career"
+                    },
+                    {
+                      "label": "Career Detail",
+                      "href": "/career-detail"
+                    }
+                  ]
+                },
+                {
+                  "id": "10",
+                  "title": "GET A QUOTE",
+                  "links": [
+                    {
+                      "label": "Get a quote",
+                      "href": "/get-a-quote"
+                    }
+                  ]
+                },
+                {
+                  "id": "11",
+                  "title": "OTHERS",
+                  "links": [
+                    {
+                      "label": "404 Page",
+                      "href": "/404"
+                    },
+                    {
+                      "label": "Sitemap",
+                      "href": "/sitemap"
+                    }
+                  ]
+                },
+                {
+                  "id": "12",
+                  "title": "POLICIES",
+                  "links": [
+                    {
+                      "label": "Terms & Conditions",
+                      "href": "/terms-conditions"
+                    },
+                    {
+                      "label": "Privacy Policy",
+                      "href": "/privacy-policy"
+                    },
+                    {
+                      "label": "Disclaimer",
+                      "href": "/disclaimer"
+                    },
+                    {
+                      "label": "Refund / Cancellation Policy",
+                      "href": "/refund-cancellation"
+                    },
+                    {
+                      "label": "Cookies Policy",
+                      "href": "/cookies-policy"
+                    }
+                  ]
+                },
+                {
+                  "id": "13",
+                  "title": "ABOUT US",
+                  "links": [
+                    {
+                      "label": "About Us",
+                      "href": "/about-us"
+                    },
+                    {
+                      "label": "Mission",
+                      "href": "/mission"
+                    },
+                    {
+                      "label": "Vision",
+                      "href": "/vision"
+                    },
+                    {
+                      "label": "Our Story",
+                      "href": "/our-story"
+                    },
+                    {
+                      "label": "Awards & Achievements",
+                      "href": "/awards"
+                    },
+                    {
+                      "label": "Our Team",
+                      "href": "/our-team"
+                    },
+                    {
+                      "label": "Team Detail",
+                      "href": "/team-detail"
+                    },
+                    {
+                      "label": "Why Choose Us",
+                      "href": "/why-choose-us"
+                    }
+                  ]
+                }
+              ]
             }
           }
         }

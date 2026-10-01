@@ -63,7 +63,7 @@ export default function FooterEvent1({
       >
         {" "}
       </div>{" "}
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]  pt-20 pb-12 relative z-10">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]  pt-20 pb-6 relative z-10">
         {" "}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
           {" "}
@@ -111,36 +111,6 @@ export default function FooterEvent1({
                 >
                   {" "}
                   {data.contact.phone}{" "}
-                </a>{" "}
-              </div>{" "}
-              <div className="flex items-center gap-4">
-                {" "}
-                <div className="w-9 h-9 rounded-full border border-purple-900/50 flex items-center justify-center shrink-0 group hover:border-purple-500 transition-colors">
-                  {" "}
-                  <Mail size={14} className="text-purple-400" />{" "}
-                </div>{" "}
-                <a
-                  href={`mailto:${data.contact.email}`}
-                  className="hover:text-purple-300 transition-colors text-white/80 pt-0.5"
-                >
-                  {" "}
-                  {data.contact.email}{" "}
-                </a>{" "}
-              </div>{" "}
-              <div className="flex items-center gap-4">
-                {" "}
-                <div className="w-9 h-9 rounded-full border border-purple-900/50 flex items-center justify-center shrink-0 group hover:border-purple-500 transition-colors">
-                  {" "}
-                  <Globe size={14} className="text-purple-400" />{" "}
-                </div>{" "}
-                <a
-                  href={`http://${data.contact.website}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-purple-300 transition-colors text-white/80 pt-0.5"
-                >
-                  {" "}
-                  {data.contact.website}{" "}
                 </a>{" "}
               </div>{" "}
             </div>{" "}

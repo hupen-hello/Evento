@@ -90,10 +90,10 @@ const getSkillIcon = (iconName: string) => {
 };
 export default function TeamDetailEvent1({ data }: { data: TeamDetailData }) {
   return (
-    <section className="bg-white overflow-hidden pb-20">
+    <section className="bg-white overflow-hidden pb-12">
       {" "}
       {/* Top Profile Section */}{" "}
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]  pt-20 pb-16 lg:pb-24 border-b border-gray-100">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]  pt-8 pb-10 border-b border-gray-100">
         {" "}
         <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr_auto] gap-10 lg:gap-16 items-center">
           {" "}
