@@ -37,9 +37,9 @@ const getTagIcon = (iconName: string) => {
 };
 export default function WhyChooseUsEvent1({ data }: { data: WhyChooseUsData }) {
   return (
-    <section className="bg-white overflow-hidden py-12 lg:py-12 relative">
+    <section className="bg-white overflow-hidden py-8 relative">
       {" "}
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]  ]">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]">
         {" "}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {" "}
@@ -150,10 +150,10 @@ export default function WhyChooseUsEvent1({ data }: { data: WhyChooseUsData }) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-20 lg:mt-32 pt-10 border-t border-gray-100"
+          className="mt-12 lg:mt-16 pt-8 border-t border-gray-100"
         >
           {" "}
-          <div className="flex flex-wrap justify-center gap-4 lg:gap-6">
+          <div className="flex flex-nowrap justify-start lg:justify-center gap-4 lg:gap-6 overflow-x-auto lg:overflow-x-visible pb-4 lg:pb-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {" "}
             {data.tags.map((tag, idx) => (
               <div
@@ -165,7 +165,7 @@ export default function WhyChooseUsEvent1({ data }: { data: WhyChooseUsData }) {
                   {" "}
                   {getTagIcon(tag.icon)}{" "}
                 </div>{" "}
-                <span className="text-[#15072b] font-serif font-bold text-[15px]">
+                <span className="text-[#15072b] font-serif font-bold text-[15px] whitespace-nowrap">
                   {tag.text}
                 </span>{" "}
                 <div className="w-1.5 h-1.5 rotate-45 bg-[#6b3c9b]/40 ml-2"></div>{" "}

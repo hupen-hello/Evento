@@ -30,13 +30,16 @@ export default function TestimonialsEvent2({ data }: TestimonialsEvent2Props) {
         {/* Header */}{" "}
         <div className="text-center max-w-3xl mx-auto mb-16">
           {" "}
-          <div className="inline-flex items-center justify-center space-x-2 mb-4 bg-white px-4 py-2 rounded-full shadow-sm">
+          <div className="flex items-center justify-center space-x-4 mb-6">
             {" "}
-            <MessageSquareQuote className="w-5 h-5 text-purple-700" />{" "}
-            <span className="text-purple-700 font-semibold uppercase tracking-wider text-sm">
+            <div className="h-[1px] w-8 bg-purple-300"></div>{" "}
+            <div className="w-1.5 h-1.5 rotate-45 bg-purple-700"></div>{" "}
+            <span className="text-purple-900 font-bold uppercase tracking-[0.2em] text-sm">
               {" "}
               {data.subtitle}{" "}
             </span>{" "}
+            <div className="w-1.5 h-1.5 rotate-45 bg-purple-700"></div>{" "}
+            <div className="h-[1px] w-8 bg-purple-300"></div>{" "}
           </div>{" "}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-[#1a0b2e]  mb-6">
             {" "}

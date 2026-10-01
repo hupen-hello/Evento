@@ -19,10 +19,10 @@ export default function LegalEvent1({ data }: LegalEvent1Props) {
       {" "}
       <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]">
         {" "}
-        <div className="flex flex-col md:flex-row gap-12 gap-16">
+        <div className="flex flex-col md:flex-row gap-12 lg:gap-16">
           {" "}
           {/* Sidebar */}{" "}
-          <div className="w-full w-1/4 flex-shrink-0">
+          <div className="w-full md:w-1/4 flex-shrink-0">
             {" "}
             <div className="sticky top-28 bg-white border border-slate-100 rounded-3xl overflow-hidden shadow-sm">
               {" "}
@@ -34,7 +34,7 @@ export default function LegalEvent1({ data }: LegalEvent1Props) {
                     <Link
                       key={idx}
                       href={link.href}
-                      className={`px-8 py-5 text-lg font-medium transition-colors border-l-4 ${isActive ? "bg-[#faf8fd] text-purple-700 border-purple-700" : "text-slate-600 hover:bg-slate-50 border-transparent hover:text-slate-900"}`}
+                      className={`px-6 md:px-8 py-4 md:py-5 text-base md:text-lg font-medium transition-colors border-l-4 ${isActive ? "bg-[#faf8fd] text-purple-700 border-purple-700" : "text-slate-600 hover:bg-slate-50 border-transparent hover:text-slate-900"}`}
                     >
                       {" "}
                       {link.label}{" "}
@@ -45,9 +45,9 @@ export default function LegalEvent1({ data }: LegalEvent1Props) {
             </div>{" "}
           </div>{" "}
           {/* Main Content */}{" "}
-          <div className="w-full lg:w-3/4">
+          <div className="w-full md:w-3/4">
             {" "}
-            <div className="bg-white rounded-3xl border border-slate-100 shadow-sm p-8 p-12">
+            <div className="bg-white rounded-3xl border border-slate-100 shadow-sm p-6 md:p-8 lg:p-12">
               {" "}
               {/* Header Info */}{" "}
               <div className="mb-10 space-y-6">
@@ -68,7 +68,7 @@ export default function LegalEvent1({ data }: LegalEvent1Props) {
                 {data.sections.map((section, idx) => (
                   <div
                     key={idx}
-                    className="flex gap-6 pb-10 border-b border-slate-100 last:border-0 last:pb-0"
+                    className="flex flex-col sm:flex-row gap-4 sm:gap-6 pb-10 border-b border-slate-100 last:border-0 last:pb-0"
                   >
                     {" "}
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-900 text-white flex items-center justify-center font-bold shadow-sm">
@@ -90,11 +90,11 @@ export default function LegalEvent1({ data }: LegalEvent1Props) {
                 ))}{" "}
               </div>{" "}
               {/* Callout Box */}{" "}
-              <div className="mt-12 bg-[#faf8fd] rounded-2xl p-6 p-8 flex items-center gap-5">
+              <div className="mt-12 bg-[#faf8fd] rounded-2xl p-6 md:p-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
                 {" "}
-                <div className="flex-shrink-0 w-14 h-14 rounded-full bg-purple-900 flex items-center justify-center text-white">
+                <div className="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-purple-900 flex items-center justify-center text-white">
                   {" "}
-                  <ShieldCheck className="w-7 h-7" />{" "}
+                  <ShieldCheck className="w-6 h-6 sm:w-7 sm:h-7" />{" "}
                 </div>{" "}
                 <p className="text-slate-600 text-base leading-relaxed font-medium">
                   {" "}

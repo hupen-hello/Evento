@@ -8,10 +8,10 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
   return (
     <section className="bg-[#fafafa] py-12 lg:py-12 relative">
       {" "}
-      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]  ]">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1300px]">
         {" "}
         {/* Section Header */}{" "}
-        <div className="max-w-4xl mb-16 mb-20">
+        <div className="max-w-4xl mb-16 md:mb-20">
           {" "}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -61,7 +61,7 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-gray-500 text-sm text-base leading-relaxed max-w-xl whitespace-pre-line"
+            className="text-gray-500 text-sm md:text-base leading-relaxed max-w-xl whitespace-pre-line"
           >
             {" "}
             {data.description}{" "}
@@ -77,7 +77,7 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="bg-white rounded-[32px] p-6 p-8 flex flex-col md:flex-row items-center gap-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-shadow duration-300 border border-gray-50"
+              className="bg-white rounded-[32px] p-6 md:p-8 flex flex-col lg:flex-row items-center gap-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-shadow duration-300 border border-gray-50"
             >
               {" "}
               {/* Left: Date Block */}{" "}
@@ -94,7 +94,7 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
                 <div className="w-8 h-[2px] bg-[#6b3c9b]"></div>{" "}
               </div>{" "}
               {/* Image Block */}{" "}
-              <div className="w-full w-[280px] h-[180px] shrink-0 rounded-2xl overflow-hidden relative group">
+              <div className="w-full lg:w-[280px] h-[220px] lg:h-[180px] shrink-0 rounded-2xl overflow-hidden relative group">
                 {" "}
                 <img
                   src={event.image}
@@ -104,11 +104,11 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
                 <div className="absolute inset-0 bg-[#6b3c9b]/10 mix-blend-multiply opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>{" "}
               </div>{" "}
               {/* Content Block */}{" "}
-              <div className="flex-1 flex flex-col md:flex-row justify-between items-center items-center gap-8 w-full">
+              <div className="flex-1 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 w-full">
                 {" "}
                 <div className="flex-1">
                   {" "}
-                  <h3 className="text-[22px] text-[24px] font-bold text-[#321654] mb-3">
+                  <h3 className="text-[22px] md:text-[24px] font-bold text-[#321654] mb-3">
                     {" "}
                     {event.title}{" "}
                   </h3>{" "}
@@ -119,7 +119,7 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
                   </p>{" "}
                 </div>{" "}
                 {/* Details & Button */}{" "}
-                <div className="flex flex-col gap-6 min-w-[220px] shrink-0 w-full w-auto">
+                <div className="flex flex-col gap-6 min-w-[220px] shrink-0 w-full md:w-auto">
                   {" "}
                   <div className="flex flex-col gap-4">
                     {" "}
@@ -141,7 +141,7 @@ export default function EventsListEvent1({ data }: { data: EventsListData }) {
                   </div>{" "}
                   <Link
                     href={event.link}
-                    className="inline-flex items-center justify-center px-8 py-4 bg-[#9d5baf] hover:bg-[#1a0b2e] text-white text-sm font-medium rounded-full transition-colors duration-300 inline-flex items-center justify-center gap-3 border border-[#6b3c9b] text-[#6b3c9b] hover: hover:text-white transition-colors duration-300 text-[14px] w-fit group"
+                    className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-transparent hover:bg-[#6b3c9b] border border-[#6b3c9b] text-[#6b3c9b] hover:text-white text-[14px] font-medium rounded-full transition-colors duration-300 w-fit group"
                   >
                     {" "}
                     View More{" "}

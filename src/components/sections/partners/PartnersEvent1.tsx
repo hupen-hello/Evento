@@ -28,13 +28,16 @@ export default function PartnersEvent1({ data }: PartnersEvent1Props) {
         {/* Header */}{" "}
         <div className="text-center max-w-3xl mx-auto mb-16">
           {" "}
-          <div className="inline-flex items-center justify-center space-x-2 mb-4">
+          <div className="flex items-center justify-center space-x-4 mb-6">
             {" "}
-            <Handshake className="w-5 h-5 text-purple-700" />{" "}
-            <span className="text-purple-700 font-semibold uppercase tracking-wider text-sm">
+            <div className="h-[1px] w-8 bg-purple-300"></div>{" "}
+            <div className="w-1.5 h-1.5 rotate-45 bg-purple-700"></div>{" "}
+            <span className="text-purple-900 font-bold uppercase tracking-[0.2em] text-sm">
               {" "}
               {data.subtitle}{" "}
             </span>{" "}
+            <div className="w-1.5 h-1.5 rotate-45 bg-purple-700"></div>{" "}
+            <div className="h-[1px] w-8 bg-purple-300"></div>{" "}
           </div>{" "}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-[#1a0b2e]  mb-6">
             {" "}
@@ -73,7 +76,7 @@ export default function PartnersEvent1({ data }: PartnersEvent1Props) {
               </div>{" "}
               {/* Grid */}{" "}
               <div
-                className={`grid gap-4 ${category.partners.length === 5 ? "grid-cols-2 grid-cols-5" : "grid-cols-2 lg:grid-cols-3 grid-cols-6"}`}
+                className={`grid gap-4 ${category.partners.length === 5 ? "grid-cols-2 md:grid-cols-3 lg:grid-cols-5" : "grid-cols-2 md:grid-cols-3 lg:grid-cols-6"}`}
               >
                 {" "}
                 {category.partners.map((partner, pIdx) => (
@@ -100,7 +103,7 @@ export default function PartnersEvent1({ data }: PartnersEvent1Props) {
         {/* Call to Action Banner */}{" "}
         <div className="max-w-5xl mx-auto mt-20">
           {" "}
-          <div className="bg-purple-50/50 border border-purple-100 rounded-2xl p-8 p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="bg-purple-50/50 border border-purple-100 rounded-2xl p-6 md:p-8 lg:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
             {" "}
             <div className="flex items-center space-x-6 text-center lg:text-left">
               {" "}
@@ -118,11 +121,11 @@ export default function PartnersEvent1({ data }: PartnersEvent1Props) {
                 </p>{" "}
               </div>{" "}
             </div>{" "}
-            <div className="flex-shrink-0 w-full w-auto">
+            <div className="flex-shrink-0 w-full md:w-auto">
               {" "}
               <Link
                 href={data.cta.buttonLink}
-                className="flex items-center justify-center w-full w-auto px-8 py-3.5 bg-white border border-purple-200 text-purple-700 font-medium rounded-full hover:bg-purple-50 hover:border-purple-300 transition-colors group"
+                className="flex items-center justify-center w-full md:w-auto px-6 md:px-8 py-3.5 bg-white border border-purple-200 text-purple-700 font-medium rounded-full hover:bg-purple-50 hover:border-purple-300 transition-colors group"
               >
                 {" "}
                 {data.cta.buttonText}{" "}

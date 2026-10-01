@@ -103,7 +103,7 @@ export default function AboutEvent1({ data }: { data: AboutData }) {
               >
                 {" "}
                 <img
-                  src={data.images[1]}
+                  src={data.images[2]}
                   alt="Event Image 2"
                   className="w-full h-full object-cover"
                 />{" "}

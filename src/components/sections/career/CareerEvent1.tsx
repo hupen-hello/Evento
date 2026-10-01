@@ -99,7 +99,7 @@ export default function CareerEvent1({ data }: CareerEvent1Props) {
               {mainContent.jobs.map((job, idx) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-2xl p-6 p-8 shadow-sm border border-slate-100 hover:shadow-md hover:border-purple-200 transition-all group"
+                  className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-100 hover:shadow-md hover:border-purple-200 transition-all group"
                 >
                   {" "}
                   <div className="flex flex-col md:flex-row items-start gap-6">
@@ -142,15 +142,15 @@ export default function CareerEvent1({ data }: CareerEvent1Props) {
                           {job.experience}{" "}
                         </div>{" "}
                       </div>{" "}
-                      <p className="text-slate-600 text-base leading-relaxed mb-6 line-clamp-2 line-clamp-none">
+                      <p className="text-slate-600 text-base leading-relaxed mb-6 line-clamp-2 md:line-clamp-none">
                         {" "}
                         {job.description}{" "}
                       </p>{" "}
                     </div>{" "}
                     {/* Action Button */}{" "}
-                    <div className="flex-shrink-0 self-center w-full w-auto">
+                    <div className="flex-shrink-0 self-center w-full md:w-auto">
                       {" "}
-                      <button className="w-full w-auto px-6 py-2.5 border-2 border-purple-200 text-purple-700 font-semibold rounded-full hover:bg-purple-50 transition-colors">
+                      <button className="w-full md:w-auto px-6 py-2.5 border-2 border-purple-200 text-purple-700 font-semibold rounded-full hover:bg-purple-50 transition-colors">
                         {" "}
                         View Details{" "}
                       </button>{" "}
@@ -183,7 +183,7 @@ export default function CareerEvent1({ data }: CareerEvent1Props) {
                       <h4 className="font-bold text-white mb-1 text-sm">
                         {item.title}
                       </h4>{" "}
-                      <p className="text-slate-600 text-base leading-relaxed /70">
+                      <p className="text-slate-600 text-base leading-relaxed text-white/70">
                         {item.description}
                       </p>{" "}
                     </div>{" "}

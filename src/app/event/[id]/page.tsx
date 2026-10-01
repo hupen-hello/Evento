@@ -19,7 +19,8 @@ const pageSections = [
   { section: "EventDetail", variant: "EventDetailEvent1" }
 ];
 
-export default function EventDetailPage({ params }: { params: { id: string } }) {
+export default async function EventDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
   return (
     <main className="flex min-h-screen flex-col w-full bg-white">
       {/* Header */}
@@ -41,7 +42,7 @@ export default function EventDetailPage({ params }: { params: { id: string } }) 
         
         const props: any = { data: sectionData };
         if (variant === "EventDetailEvent1") {
-          props.eventId = params.id;
+          props.eventId = resolvedParams.id;
         }
         
         return <ResolvedComponent key={index} {...props} />;

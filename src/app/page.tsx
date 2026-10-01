@@ -9,7 +9,6 @@ import FooterEvent1 from "@/components/sections/footer/FooterEvent1";
 
 // Import all section components
 import HeroEvent1 from "@/components/sections/hero/HeroEvent1";
-import StatsBarEvent1 from "@/components/sections/stats/StatsBarEvent1";
 import AboutEvent1 from "@/components/sections/about/AboutEvent1";
 import MissionVisionEvent1 from "@/components/sections/mission-vision/MissionVisionEvent1";
 import CoreValuesEvent1 from "@/components/sections/core-values/CoreValuesEvent1";
@@ -20,7 +19,6 @@ import BlogEvent1 from "@/components/sections/blog/BlogEvent1";
 // Component Registry matching builder variant names
 const ComponentRegistry: Record<string, React.FC<any>> = {
   HeroEvent1,
-  StatsBarEvent1,
   AboutEvent1,
   ServicesEvent1,
   TestimonialsEvent1,
@@ -29,7 +27,6 @@ const ComponentRegistry: Record<string, React.FC<any>> = {
 
 const pageSections = [
   { section: "Hero", variant: "HeroEvent1" },
-  { section: "Stats", variant: "StatsBarEvent1" },
   { section: "About", variant: "AboutEvent1" },
   { section: "Services", variant: "ServicesEvent1" },
   { section: "Testimonials", variant: "TestimonialsEvent1" },
